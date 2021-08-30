@@ -1,0 +1,6 @@
+{
+	"appId": "kodypay.starter",
+	"appName": "kodypay",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

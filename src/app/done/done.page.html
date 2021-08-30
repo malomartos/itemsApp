@@ -1,0 +1,29 @@
+
+<ion-content>
+
+  <div *ngIf="itemList$ | async as items">
+    
+        <h1 class="ion-text-center list__header">
+          Items List
+        </h1>
+    <ion-list class="ion-margin-top">
+
+
+      <ion-item *ngFor="let item of items">
+          <ion-label>
+            <h2 color="secondary" class="item__title">{{item.title}}</h2>
+            <p class="item__description">{{item.description}}</p>
+          </ion-label>
+      </ion-item>
+
+    </ion-list>
+    
+    <ion-row class="ion-margin-top ion-justify-content-center">
+      <ion-button (click)="logOut()">Log Out</ion-button>
+    </ion-row>
+    
+  </div>
+
+</ion-content>
+<ion-footer>
+</ion-footer>

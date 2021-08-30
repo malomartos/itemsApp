@@ -1,0 +1,8 @@
+{
+  "name": "kodypay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "a146f3a6"
+}

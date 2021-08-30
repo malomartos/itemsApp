@@ -1,0 +1,19 @@
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+.loading__title {
+  margin-top: 20%;
+}
+.wrapper__icon {
+    ion-icon {
+        animation: rotation 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        font-size: 4em;
+    }
+}
