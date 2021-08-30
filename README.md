@@ -4,15 +4,7 @@
 
 - Download the code
 - Download the dependencies executing `npm instal` on your console.
-- Run with `ionic serve`
-
-## Open on Device Emulator
-
-### Android
-Android native project is already added so you only need to open the folder android on Android studio and execute the emulator.
-
-### IOS
-IOS native project is already added so you only need to open the folder ios on Xcode and execute the emulator.
+- Run with `ionic serve` or `ng serve`
 
 ## Requirements
 
